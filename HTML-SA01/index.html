@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+ <html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SENAI - Cursos Técnicos</title>
+
+  <style>
+    body {
+      background-color: #0a1b33;
+      color: white;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 40px;
+    }
+
+    .logo {
+      font-size: 48px;
+      font-weight: bold;
+      font-style: italic;
+    }
+
+    hr {
+      width: 50%;
+      margin: 25px 0 40px 0;
+    }
+
+    .esquerda {
+      width: 60%;
+      display: inline-block;
+      vertical-align: top;
+    }
+
+    .direita {
+      width: 35%;
+      display: inline-block;
+      vertical-align: top;
+      margin-left: 3%;
+    }
+
+    h1 {
+      font-size: 32px;
+      text-transform: uppercase;
+      margin-top: 0;
+      margin-bottom: 25px;
+    }
+
+    p {
+      font-size: 16px;
+      color: #d1d8e0;
+      line-height: 1.5;
+      margin-bottom: 45px;
+    }
+
+    h3 {
+      font-size: 14px;
+      color: #a0aec0;
+      margin-bottom: 0;
+    }
+
+    h2 {
+      font-size: 20px;
+      margin-top: 5px;
+      margin-bottom: 30px;
+    }
+
+    .card {
+      background-color: white;
+      color: #0a1b33;
+      width: 29%;
+      height: 230px;
+      padding: 20px;
+      border-radius: 10px;
+      float: left;
+      margin-right: 3%;
+    }
+
+    .ultimo {
+      margin-right: 0;
+    }
+
+    .card:hover {
+      background-color: #d1d8e0;
+    }
+
+    .card h4 {
+      font-size: 18px;
+      margin: 0 0 12px 0;
+    }
+
+    .card p {
+      font-size: 15px;
+      color: #333333;
+      margin: 0;
+    }
+
+    .imagem {
+      width: 100%;
+      display: block;
+      border-radius: 5px;
+    }
+
+    .video-secao {
+      margin-top: 50px;
+    }
+
+    .video-secao h2 {
+      margin-bottom: 20px;
+    }
+
+    .video-caixa {
+      position: relative;
+      width: 100%;
+      max-width: 800px;
+      aspect-ratio: 16 / 9;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .video-caixa iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    .video-secao p {
+      margin: 15px 0 0 0;
+      font-size: 14px;
+    }
+
+    .video-secao a {
+      color: #a0aec0;
+    }
+
+    .faixa {
+      background-color: white;
+      color: #0a1b33;
+      padding: 20px;
+      margin-top: 50px;
+      border-radius: 5px;
+    }
+
+    .faixa span {
+      font-size: 18px;
+      font-weight: bold;
+      margin-right: 20px;
+    }
+
+    .faixa a {
+      background-color: #0a1b33;
+      color: white;
+      padding: 8px 16px;
+      text-decoration: none;
+      border-radius: 3px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="logo">SENAI</div>
+  <hr>
+
+  <div class="esquerda">
+    <h1>Cursos técnicos que te preparam para o futuro</h1>
+
+    <p>
+      Conheça as opções do SENAI para quem busca conhecimento técnico,
+      prática e uma formação mais completa para atuar em diferentes áreas da indústria.
+    </p>
+
+    <h3>CURSOS TÉCNICOS</h3>
+    <h2>Uma formação para cada área da indústria.</h2>
+
+    <div class="card">
+      <h4>Desenvolvimento de Sistemas</h4>
+      <p>Aprenda a criar sites, aplicativos e programas, trabalhando com programação e banco de dados.</p>
+    </div>
+
+    <div class="card">
+      <h4>Qualidade</h4>
+      <p>Aprenda a controlar e melhorar processos para que os produtos saiam dentro dos padrões exigidos.</p>
+    </div>
+
+    <div class="card ultimo">
+      <h4>Logística</h4>
+      <p>Aprenda a organizar o estoque, o transporte e a entrega de produtos dentro da indústria.</p>
+    </div>
+  </div>
+
+  <div class="direita">
+    <img class="imagem" src="image.png" alt="SENAI - Inovação transforma desafio em oportunidade">
+  </div>
+
+  <div class="video-secao">
+    <h3>VÍDEO</h3>
+    <h2>Conheça os cursos técnicos mais procurados do SENAI.</h2>
+
+    <div class="video-caixa">
+      <iframe
+        src="https://www.youtube.com/embed/ABGrpTcfTUI"
+        title="Conheça os 4 cursos técnicos mais procurados em 2024 e seus salários | Tem Vaga!"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen>
+      </iframe>
+    </div>
+
+    <p>
+      Não carregou? <a href="https://www.youtube.com/watch?v=ABGrpTcfTUI" target="_blank" rel="noopener">Assista direto no YouTube</a>.
+    </p>
+  </div>
+
+  <div class="faixa">
+    <span>Encontre o curso técnico certo para sua carreira.</span>
+    <a href="#">Encontre seu curso</a>
+  </div>
+
+</body>
+</html>
