@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Atividade Prática - Estilização de Página</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header>
+    <h1>Minha Página em CSS</h1>
+    <h2>Praticando seletores, menu e box model</h2>
+  </header>
+
+  <!-- Menu horizontal -->
+  <nav>
+    <ul class="menu">
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#lista">Lista</a></li>
+      <li><a href="#tabela">Tabela</a></li>
+      <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank">CSS (MDN)</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="sobre" class="caixa">
+      <h3>Sobre</h3>
+      <img src="image.png" alt="Ilustração de uma página web com código CSS" class="imagem-destaque">
+      <p class="destaque">
+        CSS (Cascading Style Sheets) é a linguagem usada para definir a aparência
+        de páginas web: cores, fontes, espaçamentos, layout e muito mais.
+        Manter o CSS em um arquivo separado deixa o código organizado e fácil de reaproveitar.
+      </p>
+    </section>
+
+    <section id="lista" class="caixa">
+      <h3>Seletores de CSS</h3>
+      <ul class="lista-personalizada">
+        <li>Classe (.classe)</li>
+        <li>Identificação (#id)</li>
+        <li>Tag (p, h1, img)</li>
+        <li>Universal (*)</li>
+        <li>Compartilhado (h1, h2, h3)</li>
+      </ul>
+    </section>
+
+    <section id="tabela" class="caixa">
+      <h3>Tabela de exemplo</h3>
+      <table>
+        <tr>
+          <th>Propriedade</th>
+          <th>Função</th>
+          <th>Exemplo</th>
+        </tr>
+        <tr>
+          <td>margin</td>
+          <td>Espaço externo</td>
+          <td>margin: 20px;</td>
+        </tr>
+        <tr>
+          <td>padding</td>
+          <td>Espaço interno</td>
+          <td>padding: 15px;</td>
+        </tr>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>Atividade prática de CSS &mdash; feito com HTML e CSS separados.</p>
+  </footer>
+
+</body>
+</html>

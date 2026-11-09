@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+</head>
+<body>
+    <title>Box Model</title>
+    <style>
+        .content-box {
+            box-sizing: content-box;
+            width: 200px;
+            height: 100px;
+            padding: 20px;
+            border: 5px solid black;
+            background-color: lightblue;
+        }
+
+        .border-box {
+            box-sizing: border-box;
+            width: 200px;
+            height: 100px;
+            padding: 20px;
+            border: 5px solid black;
+            background-color: lightgreen;
+        }
+    </style>
+    <h1>Exemplos box-level e inline-level</h1>
+    <p>Parágrafo é box-level (quebra de linha automaticamente), mas os <a href="#">links
+    são inline-level</a>
+        (permanecem na mesma linha).</p>
+
+    <h2>box-sizing:</h2>
+    <div class="content-box">Content-box (padrão)</div>
+    <div class="border-box">Border-box</div>
+
+</body>
+</html>
