@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    margin-top: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+.container-flex {
+    display: flex;
+    background-color: rgb(133, 4, 17);
+    gap: 10px;
+}
+.item-flex {
+    background-color: orange;
+    padding: 20px;
+}
+
+
+.direcao-linha {
+    flex-direction: row;
+}
+.direcao-coluna {
+    flex-direction: column;
+}
+
+
+.wrap {
+    flex-wrap: wrap;
+}
+.nowrap {
+    flex-wrap: nowrap;
+}
+
+
+.justificar-inicio {
+    justify-content: flex-start;
+}
+.justificar-fim {
+    justify-content: flex-end;
+}
+.justificar-centro {
+    justify-content: center;
+}
+.justificar-space-between {
+    justify-content: space-between;
+}
+.justificar-space-around {
+    justify-content: space-around;
+}
+.justificar-space-evenly {
+    justify-content: space-evenly;
+}
+
+
+.alinhar-items  .container-flex {
+    height: 300px;
+}
+.alinhar-stretch {
+    align-items: stretch;
+}
+.alinhar-inicio {
+    align-items: flex-start;
+}
+.alinhar-fim {
+    align-items: flex-end;
+}
+.alinhar-centro{
+    align-items: center;
+}
+.alinhar-baseline {
+    align-items: baseline;
+}
+
+
+.alinhar-conteudo {
+    align-content: center;
+    height: 600px;
+}
+.alinhar-conteudo .caixa {
+    flex: 0 0 30%;
+}
+.caixa {
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+
+.caixa {
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+
+.ordem1 {
+    order: 1;
+}
+.ordem2 {
+    order: 2;
+}
+.ordem3 {
+    order: 3;
+}
+
+
+.exemplo-grow .item-flex {
+    flex-basis: 100px;
+}
+.crescer1 {
+    flex-grow: 1;
+}
+.crescer2 {
+    flex-grow: 2;
+}
+
+
+.alinhar-items_individuais .container-flex {
+    height: 300px;
+}
+.self-inicio {
+    align-self: flex-start;
+}
+.self-centro {
+    align-self: center;
+}
+.self-fim {
+    align-self: flex-end;
+}
+.menu-nav {
+    display: block;
+    text-decoration: none;
+    background-color: rgba(156, 13, 13, 0.795);
+    color: white;
+    text-align: center;
+    height: 20px;
+    gap: 100px;
+}
+.menu-nav a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    background-color: rgba(198, 97, 97, 0.61);
+}
+
+.responsivo {
+    flex-wrap: wrap;
+}
