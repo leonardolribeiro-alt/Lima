@@ -126,8 +126,9 @@ h2 {
     color: white;
 
 }
-
-.grid-template-areas:  {
+.Layout-pagina {
+    display: grid;
+grid-template-areas:  
         "header header header"
         "nav main aside"
         "footer footer footer";
